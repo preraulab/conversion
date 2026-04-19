@@ -20,7 +20,6 @@ function T = csv2table(filename)
 %   See also: table2csv, value2str, readtable
 %
 %   ∿∿∿  Prerau Laboratory MATLAB Codebase · sleepEEG.org  ∿∿∿
-%        Source: https://github.com/preraulab/labcode_main
 
 %% ------------------- Read CSV as raw text -------------------
 opts = detectImportOptions(filename);

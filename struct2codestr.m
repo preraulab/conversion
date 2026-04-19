@@ -19,7 +19,6 @@ function code_str = struct2codestr(mystruct, struct_name)
 %   See also: struct2nvp, struct2nvpstr, value2str
 %
 %   ∿∿∿  Prerau Laboratory MATLAB Codebase · sleepEEG.org  ∿∿∿
-%        Source: https://github.com/preraulab/labcode_main
 
 code_str = [];
 fnames = fieldnames(mystruct);

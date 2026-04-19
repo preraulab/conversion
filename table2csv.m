@@ -20,7 +20,6 @@ function table2csv(T, filename)
 %   See also: csv2table, value2str, writecell
 %
 %   ∿∿∿  Prerau Laboratory MATLAB Codebase · sleepEEG.org  ∿∿∿
-%        Source: https://github.com/preraulab/labcode_main
 
     enc = value2str(T,false);  % Encode table values to strings
 

@@ -16,7 +16,6 @@ function result = double2expstr(value)
 %   See also: double2estr, double2fracstr, double2pifracstr, rat
 %
 %   ∿∿∿  Prerau Laboratory MATLAB Codebase · sleepEEG.org  ∿∿∿
-%        Source: https://github.com/preraulab/labcode_main
 
 % Decompose the value into a factor and an exponential part
 tol = 1e-5;

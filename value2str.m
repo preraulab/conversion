@@ -32,7 +32,6 @@ function out = value2str(value, simplify)
 %   See also: double2fracstr, double2pifracstr, double2estr, table2csv, csv2table
 %
 %   ∿∿∿  Prerau Laboratory MATLAB Codebase · sleepEEG.org  ∿∿∿
-%        Source: https://github.com/preraulab/labcode_main
 if nargin < 2
     simplify = true;
 end

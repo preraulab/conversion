@@ -23,7 +23,6 @@ function str = struct2nvpstr(myStruct)
 %   See also: struct2nvp, struct2codestr, namedargs2cell
 %
 %   ∿∿∿  Prerau Laboratory MATLAB Codebase · sleepEEG.org  ∿∿∿
-%        Source: https://github.com/preraulab/labcode_main
 fields = fieldnames(myStruct);
 str = '';
 for ii = 1:numel(fields)

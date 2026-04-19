@@ -22,7 +22,6 @@ function vargout = struct2nvp(myStruct)
 %   See also: struct2nvpstr, struct2codestr, namedargs2cell, value2str
 %
 %   ∿∿∿  Prerau Laboratory MATLAB Codebase · sleepEEG.org  ∿∿∿
-%        Source: https://github.com/preraulab/labcode_main
 fields = fieldnames(myStruct);
 vargout = '';
 for ii = 1:numel(fields)

@@ -20,7 +20,6 @@ function pi_str = double2pifracstr(val, tol)
 %   See also: double2estr, double2expstr, double2fracstr, rat
 %
 %   ∿∿∿  Prerau Laboratory MATLAB Codebase · sleepEEG.org  ∿∿∿
-%        Source: https://github.com/preraulab/labcode_main
 if nargin < 2
     tol = 1e-10;
 end

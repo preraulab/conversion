@@ -19,7 +19,6 @@ function frac_str = double2fracstr(val, tol)
 %   See also: double2estr, double2expstr, double2pifracstr, rat
 %
 %   ∿∿∿  Prerau Laboratory MATLAB Codebase · sleepEEG.org  ∿∿∿
-%        Source: https://github.com/preraulab/labcode_main
 if nargin < 2
     tol = 1e-10;
 end

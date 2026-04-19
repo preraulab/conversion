@@ -19,7 +19,6 @@ function e_str = double2estr(val, tol)
 %   See also: double2fracstr, double2pifracstr, double2expstr, value2str
 %
 %   ∿∿∿  Prerau Laboratory MATLAB Codebase · sleepEEG.org  ∿∿∿
-%        Source: https://github.com/preraulab/labcode_main
 
 if nargin < 2
     tol = 1e-10;

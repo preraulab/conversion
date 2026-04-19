@@ -17,7 +17,6 @@ function out = num2cellstr(s)
 %   See also: cellstr, num2str, strtrim
 %
 %   ∿∿∿  Prerau Laboratory MATLAB Codebase · sleepEEG.org  ∿∿∿
-%        Source: https://github.com/preraulab/labcode_main
 
 % Convert the numeric array into a cell array of strings
 out = reshape(strtrim(cellstr(num2str(s(:)))'), size(s));
