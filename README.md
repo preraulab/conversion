@@ -2,7 +2,7 @@
 
 Type, format, and representation conversions — numbers to strings, structs to name-value cells, tables ↔ CSV.
 
-Part of the Prerau Lab [`utils`](https://github.com/preraulab/utils) meta-repository. Can also be used standalone.
+Part of the Prerau Lab [`preraulab_utilities`](https://github.com/preraulab/preraulab_utilities) meta-repository. Can also be used standalone.
 
 ## When to use which
 
