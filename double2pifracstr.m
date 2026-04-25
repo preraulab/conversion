@@ -27,17 +27,28 @@ end
 [n,d] = rat(val/pi,tol);
 
 if n<100 && d<100
-
-    if n == -1
-        pi_str = '-pi';
-    elseif n == 1
-        pi_str = 'pi';
-    elseif n == 0
+    if n == 0
         pi_str = '0';
     elseif d == 1
-        pi_str = [num2str(n) '*pi'];
+        % d == 1 so denominator is implicit
+        if n == -1
+            pi_str = '-pi';
+        elseif n == 1
+            pi_str = 'pi';
+        else
+            pi_str = [num2str(n) '*pi'];
+        end
     else
-        pi_str = ['(' num2str(n) '*pi)/' num2str(d)];
+        % d > 1 so the denominator must appear in the string; the previous
+        % version short-circuited n == +-1 and dropped the denominator,
+        % turning e.g. -pi/3 into '-pi'.
+        if n == -1
+            pi_str = ['-pi/' num2str(d)];
+        elseif n == 1
+            pi_str = ['pi/' num2str(d)];
+        else
+            pi_str = ['(' num2str(n) '*pi)/' num2str(d)];
+        end
     end
 else
     pi_str = num2str(val);
